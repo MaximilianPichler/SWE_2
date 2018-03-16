@@ -22,7 +22,8 @@ void bubblesort(int *array, int length)
 
 int main () {
     srand(time(NULL));
-    int buffer[50];
+    int bufferLength = 50;
+    int buffer[bufferLength];
 
     FILE *fp = NULL;
     fp = fopen("zahlen.txt", "r");
@@ -33,7 +34,11 @@ int main () {
 
     int count = 0;
     while (fscanf(fp, "%d", &buffer[count]) == 1) {
-        count++;
+        if (count + 1 < bufferLength) {
+            count++;
+        } else {
+            break;
+        }
     }
     fclose(fp);
 
