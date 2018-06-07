@@ -34,13 +34,13 @@ int main()   {
 
     
       lcdLoc(LINE1);
-          typeln(myString);
+      typeln(myString);
 
       lcdLoc(LINE2);
-          typeln(myString);
+      typeln(myString);
 
       lcdLoc(LINE3); 
-          typeln(myString);
+      typeln(myString);
 
       lcdLoc(LINE4); 
 
