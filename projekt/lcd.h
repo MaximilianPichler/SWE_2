@@ -1,3 +1,6 @@
+//by Lewis Loflin www.bristolwatch.com lewis@bvu.net
+//Modified by Maximilian Pichler for 20x4 LCDs
+
 #include <wiringPiI2C.h>
 #include <wiringPi.h>
 #include <stdlib.h>
